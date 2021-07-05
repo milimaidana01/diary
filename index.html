@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script src="index.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Staatliches&display=swap&family=Fira+Sans&display=swap"
+    rel="stylesheet">
+<html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="container-a">
+            <img class="main-logo" src="https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg" alt="Logo" />
+            <div class="items-container">
+                <div class="items" onclick="goToHome()">Inicio</div>
+                <div class="dropdown">
+                    <p class="items">☰Productos</p>
+                    <div class="dropdown-content">
+                        <a href="#">Auriculares</a>
+                        <a href="#">Cargadores</a>
+                        <a href="#">Parlantes</a>
+                    </div>
+                </div>
+                <a href="#section-a" class="items">¿Cómo comprar?</a>
+                <a href="#section-b" class="items">Mayoristas</a>
+                <a href="#section-c" class="items">Contacto</a>
+                <input type="button" class="items-a" value="" />
+            </div>
+        </div>
+    </div>
+    <div class="container-b">
+        <div class="info">Envíos a todo el país</div>
+        <div class="info">Pagá como quieras</div>
+        <div class="info">Comprá con seguridad</div>
+    </div>
+    <div class="container-c">PRODUCTOS DESTACADOS</div>
+    <div class="products-container">
+        <div class="products">
+            <div class="container-d">
+                <img class="product-img" src="https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg" />
+                <div class="container-text">
+                    <div class="text-a">Auriculares Kawaii</div>
+                    <div class="text-b">$560</div>
+                </div>
+                <div class="button-container-c">
+                    <input type="button" class="button-a" value="Agregar" onclick="addToCart('Auriculares Kawaii', 560, 'https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg')"/>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="container-d">
+                <img class="product-img" src="https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg" />
+                <div class="container-text">
+                    <div class="text-a">Parlante Genius Stereo Wachiuau</div>
+                    <div class="text-b">$10000</div>
+                </div>
+                <div class="button-container-c">
+                    <input type="button" class="button-a" value="Agregar" onclick="addToCart('Parlante Genius Stereo Wachiuau', 10000, 'https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg')"/>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="container-d">
+                <img class="product-img" src="https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg" />
+                <div class="container-text">
+                    <div class="text-a">Teclado Sony LED</div>
+                    <div class="text-b">$5000</div>
+                </div>
+                <div class="button-container-c">
+                    <input type="button" class="button-a" value="Agregar" onclick="addToCart('Teclado Sony LED', 5000, 'https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg')"/>
+                </div>
+            </div>
+        </div>
+        <div class="products">
+            <div class="container-d">
+                <img class="product-img" src="https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg" />
+                <div class="container-text">
+                    <div class="text-a">Auriculares Gamer</div>
+                    <div class="text-b">$350</div>
+                </div>
+                <div class="button-container-c">
+                    <input type="button" class="button-a" value="Agregar" onclick="addToCart('Auriculares Gamer', 350, 'https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg')"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button-container">
+        <button class="btn-4" id="button"><span>Mostrar más</span></button>
+    </div>
+    <div class="section-a" id="section-a">
+        <div class="title-a">¿Cómo comprar?</div>
+        <div class="text-c">Para realizar una compra, seleccioná los productos que te interesan y
+            agregálos al carrito de compra.</div>
+        <div class="text-c">Una vez seleccionados todos los productos procede a la compra de los mismos ingresando tus
+            datos personales y dirección de envío. A continuación podrás elegir la forma de pago y el metodo de envío.
+        </div>
+        <div class="text-c">Las distintas formas de pago con las que operamos se efectúan sobre sistemas seguros que
+            protegen tus datos e informacion personal.</div>
+        <div class="text-c">Una vez completados todos los pasos de compra te enviaremos un mail confirmandote la
+            operación, junto con los datos para realizar el pago según el método elegido. Un segundo mail te sera
+            enviado en cuanto el pedido sea despachado, con la información pertinente para su recibimiento.</div>
+        <div class="title-a">Métodos de pago</div>
+        <div class="text-c">Utilizamos como método de pago mercado pago, transferencia bancaria y todas las tarjetas de
+            crédito.</div>
+        <div class="title-a">Medios de envío</div>
+        <div class="text-c" style="padding-bottom: 50px;">Enviamos a todo el país por medio de Correo Argentino. Los
+            envíos dentro de CABA y alrededores los hacemos por medio de una motomensajería de confianza. También podés
+            elegir la opción de pasar a buscar tu pedido en nuestra sucursal en Caballito.</div>
+    </div>
+    <div class="section-b" id="section-b">
+        <div class="title-b">Mayoristas</div>
+        <div class="text-d">Tenemos una lista de precios para mayoristas la cual podés
+            consultar a través de nuestro Whatsapp.</div>
+        <div class="button-container">
+            <button class="btn-4" id="button"><span>Hacé click acá</span></button>
+        </div>
+    </div>
+    <div class="section-c" id="section-c">
+        <div class="title-b">Contacto</div>
+        <div class="text-d">Podés encontrarnos en las siguientes redes sociales.</div>
+        <div class="button-container-b">
+            <button class="btn-4" id="button"><span>Instagram</span></button>
+        </div>
+        <div class="button-container-b">
+            <button class="btn-4" id="button"><span>Facebook</span></button>
+        </div>
+    </div>
+    <div class="container-footer">
+        <div class="footer">
+            <div class="title-footer">Navegación</div>
+            <div class="text-footer">Inicio</div>
+            <div class="text-footer">Productos</div>
+            <div class="text-footer">¿Cómo comprar?</div>
+            <div class="text-footer">Mayoristas</div>
+            <div class="text-footer">Contacto</div>
+        </div>
+        <div class="footer">
+            <img class="main-logo" src="https://i.ibb.co/xHxRXMr/fcf00df4-f89e-49c9-9df8-7874c24ddec9.jpg" alt="Logo" />
+        </div>
+        <div class="footer">
+            <div class="title-footer">Redes sociales</div>
+            <div class="text-footer">Instagram</div>
+            <div class="text-footer">Facebook</div>
+            <div class="text-footer">Whatsapp</div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+
+</html>
